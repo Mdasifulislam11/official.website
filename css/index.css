@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.Banner{
+    
+    height: 600px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+.logo{
+    width: 20%;
+}
+.location,
+.menu{
+width: 40%;
+}
+.menu .menu_var ul{
+    padding-top: 40px;
+}
+
+.menu .menu_var ul li{
+    display: inline-block;
+}
+
+.menu .menu_var ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0 15px;
+    display: block;
+}
+
+.logo h1{
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+
+
+}
+
+
+.location ul {
+    padding-top: 40px;
+
+}
+.location ul li a{
+    text-align: right;
+    display: block;
+}
+
+.heading,
+.heading_right{
+    width: 50%;
+}
+
+.heading h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #840bfd;
+    text-transform: capitalize;
+    width: 210px;
+    padding: 20px 0;
+}
+.heading p{
+    font-size: 15px;
+    width: 400px;
+    padding: 0 10px 20px 0;
+}
+.heading a{
+    background-color: red;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: inline-block;
+    color: white;
+    
+}
+.heading-11{
+    width: 150px;
+   background-color: aliceblue;
+   border-radius: 10px;
+   margin-top: 20%;
+   padding-bottom: 10px;
+   
+}
+.heading-11 h5{
+    padding: 10px 10px;
+    color: #000;
+    display: inline-block;
+}
+.heading-11 h3{
+    color: #000;
+    display: inline-block;
+    padding: 10px  10px;  
+}
+.heading-111{
+    border: 2px solid rgb(124, 118, 118);
+    position: absolute;
+    width: 60px;
+   margin-left: 10px;
+}
+.heading-22{
+    border: 2px solid red;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.heading ul{
+    padding-top: 40px;
+}
+
+.heading ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.main_box{
+    width: 32%;
+    margin-right: 15px;
+    padding: 8px 8px;
+    background: rgb(248, 246, 246);
+    margin-bottom: 20px;
+    
+
+}
+
+.main_box span{
+    color: #ddd;
+    font-size: 16px;
+}
+
+.main_box h3{
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.main_box p{
+    color: #ddd;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 25px 0 15px 0;
+    border-bottom: 5px solid red;
+}
+.main-box-2{
+    width: 20%; 
+
+}
+.main-box-2 h2{
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    width: 100px;
+    background-color: red;
+}
+.main-box-3{
+    width: 40%;
+}
+.main-box-4{
+    width: 40%;
+}
+.as{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+
+}
+.as h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding:10px 10px;
+}
+.as-1 img{
+    width: 300px;
+    text-align: center;
+}
+.as-2 h2{
+    color: #1e1f83;
+    font-size: 40px;
+    width: 300px;
+}
+.as-2 p{
+    color: #432679;
+    font-size: 15px;
+    width: 300px;
+    margin:  20px  0  20px;
+}
+.as-2 a{
+    color: white;
+    background-color: red;
+    padding: 15px 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.as-3 h3{
+    color: #19072c;
+    font-size: 20px;
+    
+    
+}
+
+.as-3 p{
+    position: relative;
+    line-height: 24px;
+    padding: 0 10px 0 10px;
+}
+
+.as-3 p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 25px;
+    width: 3px;
+    background-color: #000;
+}
+
+.quality .container{
+    background-color: red;
+    padding: 50px 30px;
+    
+}
+.main-box-5{
+    display: flex;
+}
+.main-box-5 h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.main-box-5 p{
+    color: rgb(219, 217, 218);
+    font-size: 15px;
+    width: 400px;
+    line-height: 24px;
+}
+
+.get-a a{
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 20px 20px;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: 30px;
+
+}
+.service,
+.service-1{
+    width: 50%;
+}
+.service h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #5a1f96;
+    font-size: 30px;
+
+}
+.service-2 ul li{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+.service-2 p{
+    width: 300px;
+    color: rgb(32, 30, 30);
+    font-size: 15px;
+
+}
+.bussing-servis{
+    width: 32%;
+    background-color: red;
+    padding: 10px ;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.bussing-1 h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+.bussing-1 p{
+    color: #ddd;
+    width: 370px;
+
+}
+
+.box-img-1,
+.box-img-3{
+    width: 50%;
+    margin: 20px 0 20px 0;
+}
+
+.box-img-2 img{
+    width: 300px; 
+
+}
+.box-img-4 p{
+    width: 300px;
+    color:red;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.box-img-4 a{
+    color: royalblue;
+     margin: 40px 0 20px 0;
+     display: inline-block;
+     
+}
+.last{
+    background-color: red;
+}
+.last-1{
+    width: 40%;
+    
+}
+.last-3,
+.last-5{
+    width: 30%;
+    display: inline-block;
+}
+.last-1 h1{
+    color: #1e1f83;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+.last-2{
+    display: inline-block;
+    display: flex;
+}
+.last-2 img{
+    width: 100px;
+
+}
+.last-2 p{
+    color: #19072c;
+    font-size: 15px;
+    padding: 20px;
+}
+.last-3 h1{
+   color:#1e1f83;
+   font-size: 30px;
+}
+.last-4 p{
+    color: #19072c;
+    margin: 20px 0 20px 0;
+}
+.last-6 h1{
+   color:#1e1f83;
+margin: 40px 0 0 0;
+font-size: 15px;
+}
